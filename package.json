@@ -1,0 +1,16 @@
+{
+	"name": "typescript-starter-script",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "npm i && tsc",
+		"start": "tsc && node dist/index.js"
+	},
+	"author": "Adam Lind",
+	"license": "ISC",
+	"devDependencies": {
+		"tslint": "^5.12.1",
+		"typescript": "^3.3.3"
+	}
+}
