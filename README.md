@@ -1,6 +1,2 @@
-typescript-starter-script
-
-## Usage
-
-1. Project Name
-2. Include testing?
+# Typescript Starter Script
+A typescript starter script. I promise, just run the script.
