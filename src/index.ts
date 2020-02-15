@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { FileGenerator, Questionaire } from "./services"
 import fileConfig from "./services/FileGenerator/config"
 import { ProjectConfig } from "./types"

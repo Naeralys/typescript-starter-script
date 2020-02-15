@@ -1,16 +1,32 @@
 {
 	"name": "typescript-starter-script",
-	"version": "1.0.0",
-	"description": "",
+	"version": "1.0.1",
+	"description": "A typescript starter script. I promise, just run the script.",
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "npm i && tsc",
 		"start": "tsc && node dist/index.js"
 	},
+	"bin": "./dist/index.js",
 	"author": "Adam Lind",
 	"license": "ISC",
 	"devDependencies": {
 		"tslint": "^5.12.1",
 		"typescript": "^3.3.3"
-	}
+	},
+	"dependencies": {
+		"inquirer": "^7.0.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Naeralys/typescript-starter-script.git"
+	},
+	"keywords": [
+		"typescript",
+		"starter"
+	],
+	"bugs": {
+		"url": "https://github.com/Naeralys/typescript-starter-script/issues"
+	},
+	"homepage": "https://github.com/Naeralys/typescript-starter-script#readme"
 }
