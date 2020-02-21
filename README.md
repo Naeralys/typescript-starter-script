@@ -39,7 +39,7 @@ https://palantir.github.io/tslint/rules/ For a full list of all the available fe
 - Personal config file. Provide a .json config file to change the default settings for generating the files.
 - [X] Generate project inside a subfolder and not in the current directory. (Currently in dev branch)
 - Tests, with CI/CD
-- Refactor dependency of the fs package. The FileGenerator should make use of dependency injection to use any file system package, and not directly import the fs package.
+- [X] Refactor dependency of the fs package. The FileGenerator should make use of dependency injection to use any file system package, and not directly import the fs package. (Currently in dev branch)
 
 ## Contribute
 
