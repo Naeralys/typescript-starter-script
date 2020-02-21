@@ -11,6 +11,8 @@
 	"author": "Adam Lind",
 	"license": "ISC",
 	"devDependencies": {
+		"@types/inquirer": "^6.5.0",
+		"@types/node": "^13.7.4",
 		"tslint": "^5.12.1",
 		"typescript": "^3.3.3"
 	},
